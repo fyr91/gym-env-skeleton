@@ -19,3 +19,5 @@ If want to add more environments:
 1. Add environment files in `envs` folder
 2. Register new environments in `customized_env/__init__.py`
 3. Import new environments in `envs/__init__.py`
+
+More info can check https://github.com/openai/gym/blob/master/docs/creating-environments.md
