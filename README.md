@@ -1,6 +1,6 @@
 # A skeleton for customized gym environment
 
-File structure
+File structure:
 ```
 gym-env-skeleton/
   README.md
@@ -19,5 +19,7 @@ If want to add more environments:
 1. Add environment files in `envs` folder
 2. Register new environments in `customized_env/__init__.py`
 3. Import new environments in `envs/__init__.py`
+
+To install customized envrionment, within project folder, type `pip install -e.`
 
 More info can check https://github.com/openai/gym/blob/master/docs/creating-environments.md
