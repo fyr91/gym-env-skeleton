@@ -1,2 +1,2 @@
-from customized_env.envs.customized_env import Customized_Env
-from gym_foo.envs.customized_extrahard_env import Customized_Extrahard_Env
+from customized_env.envs.customized_env1 import Customized_Env1
+from customized_env.envs.customized_env2 import Customized_Env2

@@ -1,10 +1,10 @@
 from gym.envs.registration import register
 
 register(
-    id='customizd-env-v0',
-    entry_point='customized_env.envs:CustomizedEnv',
+    id='customizd-env1-v0',
+    entry_point='customized_env.envs:CustomizedEnv1',
 )
 register(
-    id='customzied-extrahard-v0',
-    entry_point='customized_extrahard_env.envs:CustomizedExtraHardEnv',
+    id='customzied-env2-v0',
+    entry_point='customized_env.envs:CustomizedEnv2',
 )

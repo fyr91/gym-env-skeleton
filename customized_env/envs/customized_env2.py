@@ -2,7 +2,7 @@ import gym
 from gym import error, spaces, utils
 from gym.utils import seeding
 
-class Customized_Extrahard_Env(gym.Env):
+class Customized_Env2(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):
